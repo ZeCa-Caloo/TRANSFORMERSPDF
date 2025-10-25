@@ -1,25 +1,31 @@
-streamlit==1.36.0
-pandas==2.2.2
+# ferramentas de build
+build-essential
+python3-dev
+pkg-config
+meson
+ninja-build
+cmake
 
-# Imagens → PDF
-Pillow==10.4.0
+# cairo para pycairo/rlpycairo
+libcairo2
+libcairo2-dev
+libffi-dev
 
-# HTML → PDF (sem cairo)
-xhtml2pdf==0.2.15
-reportlab==4.1.0
-html5lib==1.1
-cssselect2==0.7.0
-tinycss2==1.3.0
+# imagens e fontes (bom para Pillow/reportlab)
+libjpeg-dev
+zlib1g-dev
+libpng-dev
+libfreetype6-dev
+libfontconfig1
+libxrender1
+libxext6
+libharfbuzz-dev
+libfribidi-dev
 
-# DOCX → HTML
-mammoth==1.6.0
+# XML (útil p/ parsers)
+libxml2-dev
+libxslt1-dev
 
-# Excel
-openpyxl==3.1.5
-xlrd==1.2.0
-
-# PDF utilitários
-pypdf==4.2.0
-
-# Suporte
-chardet==5.2.0
+# extras de imagem (opcional)
+libopenjp2-7
+libtiff5
