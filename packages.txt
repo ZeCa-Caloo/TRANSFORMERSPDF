@@ -1,0 +1,27 @@
+# Dependências de sistema necessárias para xhtml2pdf, reportlab, Pillow e openpyxl
+
+# Utilitários básicos
+build-essential
+python3-dev
+ghostscript
+
+# Bibliotecas gráficas e de imagens
+libjpeg-dev
+zlib1g-dev
+libpng-dev
+libfreetype6-dev
+
+# XML e CSS parsing
+libxml2-dev
+libxslt1-dev
+
+# Fonts e renderização de PDFs
+libfontconfig1
+libxrender1
+libxext6
+libharfbuzz-dev
+libfribidi-dev
+
+# Compatibilidade de planilhas e compressão
+libopenjp2-7
+libtiff5
