@@ -1,0 +1,82 @@
+# ===========================================
+# AMBIENTE VIRTUAL
+# ===========================================
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# ===========================================
+# CACHE E ARQUIVOS TEMPORÁRIOS
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.tmp
+
+# ===========================================
+# ARQUIVOS DE IDEs / EDITORES
+# ===========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================================
+# CONFIGURAÇÕES LOCAIS E SISTEMA
+# ===========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================================
+# ARQUIVOS DE BUILD OU PACOTES
+# ===========================================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# ===========================================
+# UPLOADS, SAÍDAS E ARQUIVOS GERADOS
+# ===========================================
+*.pdf
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+*.bak
+*.zip
+
+# ===========================================
+# STREAMLIT / KIVY / DEPLOY
+# ===========================================
+.streamlit/
+.kivy/
+logs/
+cache/
+
+# ===========================================
+# TESTES E COBERTURA
+# ===========================================
+.coverage
+.tox/
+.nox/
+pytest_cache/
+coverage.xml
+htmlcov/
+
+# ===========================================
+# NOTEBOOKS (opcional)
+# ===========================================
+.ipynb_checkpoints/
+
+# ===========================================
+# ARQUIVOS DE SISTEMAS DE VERSÃO
+# ===========================================
+.gitignore
