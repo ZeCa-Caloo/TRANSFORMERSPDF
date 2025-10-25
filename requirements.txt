@@ -1,17 +1,20 @@
-# Compatível com Streamlit Cloud (sem dependências nativas do SO)
+# Requisitos mínimos e compatíveis com Streamlit Cloud
 streamlit>=1.37.0
 pandas>=2.1.0
 
-# Leitura de planilhas e imagens
+# Planilhas e imagens
 openpyxl>=3.1.2
 xlrd>=2.0.1
 Pillow>=10.3.0
 
-# PDF: criação e manipulação
+# PDF (gerar e juntar)
 reportlab>=4.0.9
 pypdf>=5.0.0
 
-# DOCX -> HTML e HTML -> PDF
+# DOCX -> HTML -> PDF
 mammoth>=1.6.0
 xhtml2pdf>=0.2.15
 
+# Opcional (motor alternativo):
+xhtml2pdf>=0.2.15
+reportlab>=4.0.9
