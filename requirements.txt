@@ -16,4 +16,3 @@ mammoth>=1.6.0
 # xhtml2pdf
 # mammoth (docx -> html, opcional; se não usar, remova)
 # Pyphen (sem dependência obrigatória)
-
